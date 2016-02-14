@@ -215,6 +215,16 @@ body {
 * {
   box-sizing: border-box;
 }
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
+input[type="tel"],
+textarea {
+  text-transform: uppercase;
+  padding: 0 9px;
+}
 input[type="text"]::-webkit-input-placeholder,
 input[type="email"]::-webkit-input-placeholder,
 input[type="number"]::-webkit-input-placeholder,
@@ -268,6 +278,8 @@ select {
 .wrapper {
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  height: auto;
 }
 @media only screen and  (min-width: 1200px) 
                   and (max-width: 1599px) 
@@ -384,10 +396,6 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 183px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .header-logo {
   display: block;
@@ -395,6 +403,8 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
   background-position: 0px -137px;
   width: 323px;
   height: 118px;
+  margin-top: 23px;
+  margin-left: 12px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .header-logo {
@@ -402,10 +412,17 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
     background-size: 678px 334px;
   }
 }
+.header-contacts {
+  margin-top: 53px;
+  margin-left: 80px;
+}
 .header-contacts__item {
   color: #000;
   font-size: 1.9rem;
   text-align: center;
+}
+.header-tel {
+  margin-top: 47px;
 }
 .header-tel__number {
   font-size: 3rem;
@@ -460,6 +477,107 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
   margin-left: 24px;
 }
 /*-----  End of HEADER  ------*/
+.main-slider {
+  width: 100%;
+  height: 409px;
+  margin-top: 1px;
+  position: relative;
+  background-color: lightgreen;
+}
+.offer-form {
+  position: absolute;
+  left: 77px;
+  top: 215px;
+  width: 888px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-transform: skewX(-16deg);
+          transform: skewX(-16deg);
+}
+.offer-form__inner {
+  -webkit-transform: skewX(16deg);
+          transform: skewX(16deg);
+  padding-top: 29px;
+  padding-bottom: 17px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.offer-form__title {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  padding-left: 40px;
+}
+.offer-form__description {
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+  color: #2b2a28;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding-left: 33px;
+  margin-top: 13px;
+}
+.offer {
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 74px;
+  margin-top: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.offer__input {
+  width: 197px;
+  height: 41px;
+  background-color: #fff;
+  border: 1px solid #4e5659;
+}
+.offer__submit {
+  padding: 0 42px;
+  color: #000;
+}
+.addition-info {
+  color: #fff;
+  position: absolute;
+  top: 376px;
+  right: 80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.addition-info__text {
+  margin-right: 4px;
+}
+.addition-info__link {
+  color: inherit;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.addition-info__link:hover,
+.addition-info__link:focus {
+  text-decoration: none;
+}
 /*==============================
 =            FOOTER            =
 ==============================*/
