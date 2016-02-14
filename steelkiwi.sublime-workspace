@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"spr",
+				"sprite.less"
+			],
+			[
 				"ip",
 				"iphone6	media-iphone6"
 			],
@@ -371,15 +375,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 277,
+				"buffer_size": 2031,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/scripts.js",
+			"file": "less/header.less",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1094,
 				"line_ending": "Unix"
 			}
 		}
@@ -391,10 +395,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 87.0,
-		"last_filter": "git push",
+		"height": 392.0,
+		"last_filter": "ec",
 		"selected_items":
 		[
+			[
+				"ec",
+				"Run eCSStractor (with BEM Nesting)"
+			],
 			[
 				"git push",
 				"Git: Push"
@@ -434,10 +442,6 @@
 			[
 				"git pus",
 				"Git: Push"
-			],
-			[
-				"ec",
-				"Run eCSStractor (with BEM Nesting)"
 			],
 			[
 				"jav",
@@ -656,7 +660,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 530.0
+		"width": 567.0
 	},
 	"console":
 	{
@@ -681,6 +685,14 @@
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/custom.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/css/style.css",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/style.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/variables.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/fonts.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/fonts/stylesheet.css",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/fonts/specimen_files/specimen_stylesheet.css",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/js/scripts.js",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/.gitignore",
 		"/Applications/MAMP/htdocs/Projects/Defc/gulpfile.js",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/package.json",
@@ -800,15 +812,7 @@
 		"/Users/Frontend/Library/Application Support/Sublime Text 3/Packages/User/media-desktop.sublime-snippet",
 		"/Applications/MAMP/htdocs/Projects/Money time/shop-main.html",
 		"/Users/Frontend/Downloads/SelectInspiration/index.html",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/cs-select.less",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/owl.carousel.less",
-		"/Applications/MAMP/htdocs/Projects/Money time/js/app.js",
-		"/Users/Frontend/Desktop/no-jquery.html",
-		"/Users/Frontend/Desktop/with-jquery.html",
-		"/Users/Frontend/Desktop/js\\jssor.slider.mini.js",
-		"/Users/Frontend/Desktop/js\\jssor.slider.min.js",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/signup-step-4.less",
-		"/Applications/MAMP/htdocs/Projects/Money time/signup-step-4.html"
+		"/Applications/MAMP/htdocs/Projects/Money time/less/cs-select.less"
 	],
 	"find":
 	{
@@ -841,6 +845,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"site-",
 			"defc",
 			"cons",
 			"grid-gallery",
@@ -967,8 +972,7 @@
 			"ax",
 			"ay",
 			"offset",
-			"scr-top-line1",
-			"4000"
+			"scr-top-line1"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1037,15 +1041,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 277,
+						"buffer_size": 2031,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								220,
-								220
+								1838,
+								1838
 							]
 						],
 						"settings":
@@ -1057,10 +1061,11 @@
 							"remote_loading": false,
 							"spell_check": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1074,32 +1079,33 @@
 			[
 				{
 					"buffer": 2,
-					"file": "js/scripts.js",
+					"file": "less/header.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1094,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								691,
+								691
 							]
 						],
 						"settings":
 						{
-							"bs_sintax": "javascript",
-							"buffer_scroll_name": "5c7b8ba1",
+							"bs_sintax": "less",
+							"buffer_scroll_name": "10097656",
 							"incomplete_sync": null,
 							"remote_loading": false,
+							"spell_check": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 317.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1180,6 +1186,30 @@
 		"selected_items":
 		[
 			[
+				"css",
+				"css/style.css"
+			],
+			[
+				"hea",
+				"less/header.less"
+			],
+			[
+				"sty",
+				"less/style.less"
+			],
+			[
+				"fo",
+				"less/fonts.less"
+			],
+			[
+				"va",
+				"less/variables.less"
+			],
+			[
+				"cu",
+				"less/custom.less"
+			],
+			[
 				"s",
 				"js/scripts.js"
 			],
@@ -1228,10 +1258,6 @@
 				"js/scripts.js"
 			],
 			[
-				"va",
-				"less/variables.less"
-			],
-			[
 				"tra",
 				"less/scr-transporting.less"
 			],
@@ -1242,10 +1268,6 @@
 			[
 				"abo",
 				"less/scr-aboutus.less"
-			],
-			[
-				"sty",
-				"less/style.less"
 			],
 			[
 				"ow",
@@ -1264,14 +1286,6 @@
 				"less/scr-specs.less"
 			],
 			[
-				"cu",
-				"less/custom.less"
-			],
-			[
-				"hea",
-				"less/header.less"
-			],
-			[
 				"ae",
 				"less/scr-aerodynamics.less"
 			],
@@ -1286,10 +1300,6 @@
 			[
 				"spec",
 				"less/scr-specs.less"
-			],
-			[
-				"css",
-				"css/style.css"
 			],
 			[
 				"cons",
@@ -1322,10 +1332,6 @@
 			[
 				"col",
 				"less/custom.less"
-			],
-			[
-				"fo",
-				"less/fonts.less"
 			],
 			[
 				"phot",
@@ -1716,7 +1722,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

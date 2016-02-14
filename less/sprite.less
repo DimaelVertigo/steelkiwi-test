@@ -121,6 +121,17 @@ At the bottom of this section, we provide information about the spritesheet itse
 @partners6-total-height: 334px;
 @partners6-image: '../img/sprite.png';
 @partners6: 0px 0px 0px 0px 368px 137px 678px 334px '../img/sprite.png' 'partners6';
+@tab-arrow-name: 'tab-arrow';
+@tab-arrow-x: 607px;
+@tab-arrow-y: 109px;
+@tab-arrow-offset-x: -607px;
+@tab-arrow-offset-y: -109px;
+@tab-arrow-width: 19px;
+@tab-arrow-height: 18px;
+@tab-arrow-total-width: 678px;
+@tab-arrow-total-height: 334px;
+@tab-arrow-image: '../img/sprite.png';
+@tab-arrow: 607px 109px -607px -109px 19px 18px 678px 334px '../img/sprite.png' 'tab-arrow';
 @cert-icon1-2x-name: 'cert-icon1-2x';
 @cert-icon1-2x-x: 1214px;
 @cert-icon1-2x-y: 118px;
@@ -231,15 +242,26 @@ At the bottom of this section, we provide information about the spritesheet itse
 @partners6-2x-total-height: 668px;
 @partners6-2x-image: '../img/sprite-retina.png';
 @partners6-2x: 0px 0px 0px 0px 736px 274px 1356px 668px '../img/sprite-retina.png' 'partners6-2x';
+@tab-arrow-2x-name: 'tab-arrow-2x';
+@tab-arrow-2x-x: 1214px;
+@tab-arrow-2x-y: 218px;
+@tab-arrow-2x-offset-x: -1214px;
+@tab-arrow-2x-offset-y: -218px;
+@tab-arrow-2x-width: 38px;
+@tab-arrow-2x-height: 36px;
+@tab-arrow-2x-total-width: 1356px;
+@tab-arrow-2x-total-height: 668px;
+@tab-arrow-2x-image: '../img/sprite-retina.png';
+@tab-arrow-2x: 1214px 218px -1214px -218px 38px 36px 1356px 668px '../img/sprite-retina.png' 'tab-arrow-2x';
 @spritesheet-width: 678px;
 @spritesheet-height: 334px;
 @spritesheet-image: '../img/sprite.png';
-@spritesheet-sprites: @cert-icon1 @cert-icon2 @footer-logo @header-logo @partners1 @partners2 @partners3 @partners4 @partners5 @partners6;
+@spritesheet-sprites: @cert-icon1 @cert-icon2 @footer-logo @header-logo @partners1 @partners2 @partners3 @partners4 @partners5 @partners6 @tab-arrow;
 @spritesheet: 678px 334px '../img/sprite.png' @spritesheet-sprites;
 @retina-spritesheet-width: 1356px;
 @retina-spritesheet-height: 668px;
 @retina-spritesheet-image: '../img/sprite-retina.png';
-@retina-spritesheet-sprites: @cert-icon1-2x @cert-icon2-2x @footer-logo-2x @header-logo-2x @partners1-2x @partners2-2x @partners3-2x @partners4-2x @partners5-2x @partners6-2x;
+@retina-spritesheet-sprites: @cert-icon1-2x @cert-icon2-2x @footer-logo-2x @header-logo-2x @partners1-2x @partners2-2x @partners3-2x @partners4-2x @partners5-2x @partners6-2x @tab-arrow-2x;
 @retina-spritesheet: 1356px 668px '../img/sprite-retina.png' @retina-spritesheet-sprites;
 
 /*
@@ -267,7 +289,9 @@ The list formatted variables are intended for mixins like `retina-sprite` and `r
 @partners5-group: 'partners5' @partners5 @partners5-2x;
 @partners6-group-name: 'partners6';
 @partners6-group: 'partners6' @partners6 @partners6-2x;
-@retina-groups: @cert-icon1-group @cert-icon2-group @footer-logo-group @header-logo-group @partners1-group @partners2-group @partners3-group @partners4-group @partners5-group @partners6-group;
+@tab-arrow-group-name: 'tab-arrow';
+@tab-arrow-group: 'tab-arrow' @tab-arrow @tab-arrow-2x;
+@retina-groups: @cert-icon1-group @cert-icon2-group @footer-logo-group @header-logo-group @partners1-group @partners2-group @partners3-group @partners4-group @partners5-group @partners6-group @tab-arrow-group;
 
 /*
 The provided classes are intended to be used with the array-like variables

@@ -1,6 +1,66 @@
 /*==============================
 =            HEADER            =
 ==============================*/
+.header {
+}
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	height: 183px;
+	align-items: center;
+}
+.header-logo {
+	display: block;
+	.retina-sprite(@header-logo-group);
+}
+.header-contacts {
+	&__item {
+		color: @brand;
+		font-size: 1.9rem;
+		text-align: center;
+	}
+}
+.header-tel {
+	&__number {
+		font-size: 3rem;
+		text-align: center;
+	}
+	&__button {
+		margin-top: 14px;
+	}
+}
+.header-nav {
+	width: 100%;
+	height: 50px;
+	background-color: @orange;
+	border-bottom: 1px solid #c76d0b;
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 50px;
+	}
+	&__item {
+		display: block;
+		color: #fff;
+		font-size: 2rem;
+		text-transform: uppercase;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		&:not(:last-child) {
+			&::after {
+			  content: '';
+			  display: block;
+			  width: 6px;
+			  height: 6px;
+			  background-color: #fff;
+			  border-radius: 50%;
+			  margin-left: 24px;
+			}
+		}
+	}
+}
 
 /*-----  End of HEADER  ------*/
 

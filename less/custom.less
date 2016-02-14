@@ -15,15 +15,23 @@
 	clear: both;
 }
 html, body {
-	color: @brand;
 	height: 100%;
 	user-select: text;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	color: @brand;
+	font-size: 1.6rem;
+	line-height: 22px;
+	font-family: @ff-r;
 }
 * {
 	box-sizing: border-box;
 }
-input[type="text"], input[type="email"], input[type="number"], input[type="search"], input[type="url"], textarea {
-	.placeholder(@color: @brand)
+input[type="text"], input[type="email"], input[type="number"], input[type="search"], input[type="url"], input[type="tel"], textarea {
+	.placeholder(@color: @grey)
 }
 input, textarea, button, select {
 	color: inherit;
@@ -39,23 +47,31 @@ input, textarea, button, select {
 .wrapper {
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
+	@media @desktop {
+		width: @wrapper;
+		padding-left: 1.7578125%;
+	}
 }
 .content {
 	width: 100%;
 }
 .btn {
-	background-clip: padding-box;
-	border-radius: none;
-	border: none;
 	display: inline-block;
-	outline: none;
+	height: 41px;
+	background-color: @orange;
+	color: #fff;
+	font-size: 2.5rem;
+	text-transform: uppercase;
 	text-align: center;
 	text-decoration: none;
-	text-transform: uppercase;
-
+	line-height: 41px;
+	padding: 0 20px;
+	outline: none;
+	border: none;
+	.transition();
 	&:hover {
 		cursor: pointer;
+		background-color: @mandarine;
 	}
 	&[disabled] {
 		background-color: gray;
@@ -66,8 +82,5 @@ input, textarea, button, select {
 		text-decoration: none;
 	}
 }
-.title {
-}
-
 
 /*-----  End of Custom styles  ------*/
