@@ -1,0 +1,59 @@
+/*===============================
+=            FETURES            =
+===============================*/
+.features {
+	padding-top: 58px;
+	padding-bottom: 70px;
+}
+.features-list {
+	width: 650px;
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		&:not(:last-child) {
+			margin-bottom: 50px;
+		}
+	}
+	&__img {
+		width: 189px;
+		height: 189px;
+		border: 5px solid #fff;
+		box-shadow: 0 0 11px rgba(0, 0, 0, 0.14);
+		border-radius: 50%;
+		flex-shrink: 0;
+		margin-right: 20px;
+		&--1 {
+			background: url(../img/photos/features-list-item1.jpg) center no-repeat;
+		}
+		&--2 {
+			background: url(../img/photos/features-list-item2.jpg) center no-repeat;
+		}
+		&--3 {
+			background: url(../img/photos/features-list-item3.jpg) center no-repeat;
+		}
+		&--4 {
+			background: url(../img/photos/features-list-item4.jpg) center no-repeat;
+		}
+	}
+	&__info {
+		display: flex;
+		flex-direction: column;
+	}
+	&__title {
+		margin-top: 3px;
+		font-size: 3.0rem;
+		text-transform: uppercase;
+		line-height: 35px;
+	}
+	&__text {
+		margin-top: 16px;
+		font-size: 1.8rem;
+	}
+	&__btn {
+		margin-top: 20px;
+		width: 197px;
+	}
+}
+
+
+
