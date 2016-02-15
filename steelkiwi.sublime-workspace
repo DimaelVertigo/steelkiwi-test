@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"main-slider-item1.png	w:313 h:406"
+			],
+			[
 				"trfs",
 				"trf-skx	transform: skewX(${1:angle});"
 			],
@@ -387,7 +391,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11959,
+				"buffer_size": 12047,
 				"line_ending": "Unix"
 			}
 		},
@@ -395,15 +399,15 @@
 			"file": "js/scripts.js",
 			"settings":
 			{
-				"buffer_size": 1778,
+				"buffer_size": 1795,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "less/main-slider.less",
+			"file": "less/quality.less",
 			"settings":
 			{
-				"buffer_size": 6070,
+				"buffer_size": 2006,
 				"line_ending": "Unix"
 			}
 		},
@@ -411,7 +415,7 @@
 			"file": "less/partners.less",
 			"settings":
 			{
-				"buffer_size": 2966,
+				"buffer_size": 3830,
 				"line_ending": "Unix"
 			}
 		}
@@ -423,10 +427,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 167.0,
-		"last_filter": "java",
+		"height": 87.0,
+		"last_filter": "git push",
 		"selected_items":
 		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"q",
+				"Git: Quick Commit"
+			],
+			[
+				"git a",
+				"Git: Add All"
+			],
 			[
 				"java",
 				"Set Syntax: JavaScript"
@@ -436,19 +452,7 @@
 				"Run eCSStractor (with BEM Nesting)"
 			],
 			[
-				"git push",
-				"Git: Push"
-			],
-			[
 				"qu",
-				"Git: Quick Commit"
-			],
-			[
-				"git a",
-				"Git: Add All"
-			],
-			[
-				"q",
 				"Git: Quick Commit"
 			],
 			[
@@ -717,24 +721,26 @@
 	},
 	"expanded_folders":
 	[
-		"/Applications/MAMP/htdocs/Projects/steelkiwi-test"
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/js"
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/variables.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/footer.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/features.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/main-slider.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/header.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/custom.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/js/jquery.gridrotator.js",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/partners.less",
 		"/Users/Frontend/Downloads/AnimatedResponsiveImageGrid/index3.html",
 		"/Users/Frontend/Downloads/AnimatedResponsiveImageGrid/index.html",
 		"/Users/Frontend/Downloads/AnimatedResponsiveImageGrid/css/demo.css",
 		"/Users/Frontend/Downloads/AnimatedResponsiveImageGrid/css/style.css",
 		"/Users/Frontend/Downloads/AnimatedResponsiveImageGrid/css/fallback.css",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/quality.less",
-		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/footer.less",
-		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/partners.less",
-		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/custom.less",
-		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/features.less",
-		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/variables.less",
 		"/Users/Frontend/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/main-slider.less",
-		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/header.less",
 		"/Users/Frontend/Downloads/owl.carousel.2.0.0-beta.2 4.4/assets/owl.carousel.css",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/js/scripts.js",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/style.less",
@@ -847,8 +853,7 @@
 		"/Applications/MAMP/htdocs/Projects/Money time/shop-category.html",
 		"/Applications/MAMP/htdocs/Projects/Money time/less/shop-subcategory.less",
 		"/Applications/MAMP/htdocs/Projects/Money time/less/brands.less",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/sponsor-room.less",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/shop-main.less"
+		"/Applications/MAMP/htdocs/Projects/Money time/less/sponsor-room.less"
 	],
 	"find":
 	{
@@ -881,6 +886,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"main-slider-item1",
+			"100",
+			"px",
+			"45deg",
+			"rotateBottom",
+			"startInProp",
+			"rotateBottom",
+			"transitio",
+			"400",
+			"400ms",
+			"400s",
+			"<a href=\"#\">",
+			"height=\"406\" width=\"313\"",
 			"opts",
 			"jpg",
 			"main-slider__slide",
@@ -995,20 +1013,7 @@
 			"section",
 			"navlinks",
 			"<a href",
-			"div",
-			"fbsection1",
-			"background-image",
-			"waves",
-			"4",
-			"scr-aerodynamics--waves",
-			"#scr-aerodynamics--waves",
-			"1",
-			"scr-features-line",
-			"x1=\"0\" y1=\"0\" \n							x2=\"0\" y2=\"0\"",
-			"95%",
-			"7%",
-			"37%",
-			"7%"
+			"div"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1077,15 +1082,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11959,
+						"buffer_size": 12047,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1230,
-								1230
+								3884,
+								3884
 							]
 						],
 						"settings":
@@ -1102,16 +1107,16 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 355.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1120,15 +1125,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1778,
+						"buffer_size": 1795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								439,
-								439
+								1069,
+								1069
 							]
 						],
 						"settings":
@@ -1143,33 +1148,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 412.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "less/main-slider.less",
+					"file": "less/quality.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6070,
+						"buffer_size": 2006,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								447,
-								447
+								1832,
+								1832
 							]
 						],
 						"settings":
 						{
 							"bs_sintax": "less",
-							"buffer_scroll_name": "86073c6d",
+							"buffer_scroll_name": "5dce8cc4",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"spell_check": false,
@@ -1178,7 +1183,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1.0,
+						"translation.y": 1618.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1190,15 +1195,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2966,
+						"buffer_size": 3830,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								433,
-								433
+								471,
+								471
 							]
 						],
 						"settings":
@@ -1216,7 +1221,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1294,36 +1299,44 @@
 		"selected_items":
 		[
 			[
-				"pa",
-				"less/partners.less"
-			],
-			[
-				"mai",
-				"less/main-slider.less"
-			],
-			[
-				"q",
-				"less/quality.less"
+				"va",
+				"less/variables.less"
 			],
 			[
 				"foo",
 				"less/footer.less"
 			],
 			[
+				"pa",
+				"less/partners.less"
+			],
+			[
+				"q",
+				"less/quality.less"
+			],
+			[
 				"fea",
 				"less/features.less"
 			],
 			[
-				"cu",
-				"less/custom.less"
-			],
-			[
-				"va",
-				"less/variables.less"
+				"ma",
+				"less/main-slider.less"
 			],
 			[
 				"hea",
 				"less/header.less"
+			],
+			[
+				"cus",
+				"less/custom.less"
+			],
+			[
+				"mai",
+				"less/main-slider.less"
+			],
+			[
+				"cu",
+				"less/custom.less"
 			],
 			[
 				"sc",
@@ -1342,16 +1355,8 @@
 				"less/style.less"
 			],
 			[
-				"cus",
-				"less/custom.less"
-			],
-			[
 				"he",
 				"less/header.less"
-			],
-			[
-				"ma",
-				"less/main-slider.less"
 			],
 			[
 				"s",

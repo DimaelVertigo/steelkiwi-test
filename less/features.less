@@ -6,6 +6,9 @@
   @media @mobile {
     padding-top: 24px;
   }
+  @media @tablet {
+    padding-top: 58px;
+  }
   @media @desktop {
     padding-top: 58px;
   }
@@ -25,6 +28,9 @@
     width: 100%;
     margin-top: 20px;
   }
+  @media @tablet {
+    width: 650px;
+  }
   @media @desktop {
     width: 650px;
   }
@@ -34,6 +40,9 @@
 		&:not(:last-child) {
       @media @mobile {
         margin-bottom: 40px;
+      }
+      @media @tablet {
+        margin-bottom: 50px;   
       }
 			@media @desktop {
         margin-bottom: 50px;   
@@ -92,6 +101,9 @@
     @media @mobile {
       width: 100%;
       text-align: left;
+    }
+    @media @tablet {
+      margin-bottom: 20px;
     }
     @media @desktop {
       margin-bottom: 20px;
@@ -329,6 +341,12 @@
       margin-bottom: 48px;
     }
   }
+  @media @tablet {
+    width: 262px;
+    height: 262px;
+    margin-bottom: 137px;
+    margin-top: 87px;
+  }
   @media @desktop {
     width: 262px;
     height: 262px;
@@ -339,6 +357,10 @@
     @media @mobile {
       width: 233px;
       height: 233px;
+    }
+    @media @tablet {
+      width: 262px;
+      height: 262px;  
     }
 		@media @desktop {
       width: 262px;
@@ -356,6 +378,9 @@
     @media @mobile {
       top: calc(~"50% - 10px");
     }
+    @media @tablet {
+      left: calc(~"50% - 10px");
+    }
     @media @desktop {
       left: calc(~"50% - 10px");
     }
@@ -364,6 +389,10 @@
     @media @mobile {
       left: -20px;
       .triangle(left, 18px, 18px, @orange);
+    }
+    @media @tablet {
+      .triangle(up, 10px, @orange);
+      top: -33px;
     }
     @media @desktop {
       .triangle(up, 10px, @orange);
@@ -374,6 +403,10 @@
     @media @mobile {
       .triangle(right, 18px, 18px, @orange);
       right: -20px;
+    }
+    @media @tablet {
+      .triangle(down, 10px, @orange);
+      bottom: -33px;
     }
     @media @desktop {
       .triangle(down, 10px, @orange);
