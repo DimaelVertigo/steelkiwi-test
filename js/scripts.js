@@ -16,6 +16,7 @@ $(document).ready(function(){
 		$( '#ri-grid' ).gridrotator( {
 			rows : 1,
 			columns : 8,
+			step			: '1',
 			animType: 'rotateBottom'
 		} );
 	});
