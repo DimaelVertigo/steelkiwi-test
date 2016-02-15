@@ -380,22 +380,6 @@
 	"buffers":
 	[
 		{
-			"file": "gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 3449,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 12047,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "js/scripts.js",
 			"settings":
 			{
@@ -436,12 +420,16 @@
 				"Git: Push"
 			],
 			[
-				"q",
+				"qu",
 				"Git: Quick Commit"
 			],
 			[
 				"git a",
 				"Git: Add All"
+			],
+			[
+				"q",
+				"Git: Quick Commit"
 			],
 			[
 				"java",
@@ -450,10 +438,6 @@
 			[
 				"ec",
 				"Run eCSStractor (with BEM Nesting)"
-			],
-			[
-				"qu",
-				"Git: Quick Commit"
 			],
 			[
 				"rei",
@@ -726,6 +710,8 @@
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/gulpfile.js",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/index.html",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/variables.less",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/footer.less",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/features.less",
@@ -851,9 +837,7 @@
 		"/Applications/MAMP/htdocs/Projects/Money time/less/game.less",
 		"/Applications/MAMP/htdocs/Projects/Money time/js/jquery.flexslider.js",
 		"/Applications/MAMP/htdocs/Projects/Money time/shop-category.html",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/shop-subcategory.less",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/brands.less",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/sponsor-room.less"
+		"/Applications/MAMP/htdocs/Projects/Money time/less/shop-subcategory.less"
 	],
 	"find":
 	{
@@ -1037,82 +1021,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3449,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2497,
-								2497
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "javascript",
-							"buffer_scroll_name": "c3b37fc6",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1379.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12047,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3884,
-								3884
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "html",
-							"buffer_scroll_name": "98607a4d",
-							"history_list_is_closing": true,
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -1120,7 +1030,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 0,
 					"file": "js/scripts.js",
 					"semi_transient": false,
 					"settings":
@@ -1132,8 +1042,8 @@
 						"selection":
 						[
 							[
-								1069,
-								1069
+								508,
+								508
 							]
 						],
 						"settings":
@@ -1148,14 +1058,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 412.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "less/quality.less",
 					"semi_transient": false,
 					"settings":
@@ -1190,7 +1100,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "less/partners.less",
 					"semi_transient": false,
 					"settings":
