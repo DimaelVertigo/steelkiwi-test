@@ -330,7 +330,7 @@ h2.title {
 @media only screen and (min-width : 320px) and (max-width : 766px) {
   h2.title {
     font-size: 3rem;
-    line-height: 2.5rem;
+    line-height: 3.8rem;
   }
 }
 h3.title {
@@ -648,6 +648,7 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
 /*-----  End of HEADER  ------*/
 .main-slider {
   width: 100%;
+  overflow: hidden;
 }
 @media only screen and (min-width : 320px) and (max-width : 766px) {
   .main-slider {
@@ -661,9 +662,42 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
     height: 409px;
     margin-top: 1px;
     position: relative;
-    background-color: lightgreen;
     border-bottom: 4px solid #fdc029;
   }
+}
+.main-slider__inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-slider__slide {
+  width: 313px;
+  height: 406px;
+}
+.main-slider__slide + .main-slider__slide {
+  margin-left: -150px;
+}
+.main-slider__slide--1 {
+  background: url(../img/photos/main-slider-item1.png) no-repeat;
+}
+.main-slider__slide--2 {
+  background: url(../img/photos/main-slider-item2.png) no-repeat;
+}
+.main-slider__slide--3 {
+  background: url(../img/photos/main-slider-item3.png) no-repeat;
+}
+.main-slider__slide--4 {
+  background: url(../img/photos/main-slider-item4.png) no-repeat;
+}
+.main-slider__slide--5 {
+  background: url(../img/photos/main-slider-item5.png) no-repeat;
+}
+.main-slider__slide--6 {
+  background: url(../img/photos/main-slider-item1.png) no-repeat;
 }
 .wrapper--slider {
   padding: 0;
@@ -842,6 +876,106 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
 .addition-info-mobile__link:focus {
   text-decoration: none;
 }
+.ri-grid {
+  width: 240%;
+  position: absolute;
+  top: 0;
+  left: -10%;
+  height: auto;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .ri-grid {
+    display: none;
+  }
+}
+.ri-grid ul li,
+.ri-grid ul li a {
+  width: 100px;
+  height: 100px;
+}
+.ri-grid ul {
+  list-style: none;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Clear floats by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.ri-grid ul:before,
+.ri-grid ul:after {
+  content: '';
+  display: table;
+}
+.ri-grid ul:after {
+  clear: both;
+}
+.ri-grid ul {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.ri-grid ul li {
+  -webkit-perspective: 400px;
+  -o-perspective: 400px;
+  -ms-perspective: 400px;
+  perspective: 400px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.ri-grid ul li:not(:last-child) {
+  margin-right: -4%;
+}
+.ri-grid ul li a {
+  display: block;
+  outline: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  background-size: 100% 100%;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  box-sizing: content-box;
+}
+/* Grid wrapper sizes */
+.ri-grid-size-1 {
+  width: 100%;
+}
+.ri-grid-size-2 {
+  width: 100%;
+}
+.ri-grid-size-3 {
+  width: 100%;
+  margin-top: 0px;
+}
+/* Shadow style */
+.ri-loading-image {
+  display: none;
+}
+.ri-grid-loading .ri-loading-image {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  left: 50%;
+  margin: 100px 0 0 -15px;
+  display: block;
+}
 /*===============================
 =            FETURES            =
 ===============================*/
@@ -850,7 +984,7 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
 }
 @media only screen and (min-width : 320px) and (max-width : 766px) {
   .features {
-    padding-top: 30px;
+    padding-top: 24px;
   }
 }
 @media only screen and  (min-width: 1200px) {
@@ -1298,11 +1432,20 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
 ===============================*/
 .quality {
   background-color: #2b2a28;
-  padding-top: 50px;
-  padding-bottom: 36px;
   color: #fff;
   position: relative;
   z-index: 2;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .quality {
+    padding-top: 42px;
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  .quality {
+    padding-top: 50px;
+    padding-bottom: 36px;
+  }
 }
 .quality__content {
   display: -webkit-box;
@@ -1310,6 +1453,20 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
   display: -ms-flexbox;
   display: flex;
   margin-top: 59px;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .quality__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
+  }
 }
 .quality__title {
   text-align: center;
@@ -1326,6 +1483,20 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
 }
 .quality__item:not(:last-child) {
   margin-bottom: 41px;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .quality__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
+  }
 }
 .quality__icon {
   width: 106px;
@@ -1349,10 +1520,19 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
   font-size: 3rem;
   line-height: 25px;
   text-align: center;
-  margin-right: 41px;
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .quality__icon {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  .quality__icon {
+    margin-right: 41px;
+  }
 }
 .quality__icon i {
   display: block;
@@ -1383,50 +1563,112 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
 }
 .quality__text {
   font-family: 'pf_din_text_cond_proLtIt';
-  font-size: 26px;
-  font-weight: 300;
-  font-style: italic;
+  font-size: 2.6rem;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .quality__text {
+    text-align: center;
+    line-height: 3rem;
+  }
 }
 .certificate {
-  margin: 4px 63px 0 19px;
   cursor: pointer;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .certificate {
+    width: 182px;
+    height: 265px;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+  }
+  .certificate img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  .certificate {
+    margin: 4px 63px 0 19px;
+  }
 }
 .certificate img {
   transition: -webkit-transform 0.25s ease;
 }
-.certificate img:active {
-  -webkit-transform: scale(2);
-          transform: scale(2);
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .certificate img:active {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  .certificate img:active {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .quality-list {
+    margin-top: 82px;
+    margin-bottom: 106px;
+  }
 }
 /*================================
 =            PARTNERS            =
 ================================*/
 .partners {
   background-color: #fdc029;
-  padding-top: 46px;
+  overflow: hidden;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .partners {
+    padding-top: 37px;
+    padding-bottom: 30px;
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  .partners {
+    padding-top: 46px;
+  }
 }
 .partners__title {
   text-align: center;
 }
 .partners__description {
   font-size: 2.2rem;
-  margin-top: 24px;
   text-align: center;
   font-family: 'pf_din_text_cond_proLtIt';
 }
-.partners__content {
-  background-color: #fff;
-  height: 375px;
-  width: 100%;
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .partners__description {
+    margin-top: 16px;
+    line-height: 2.4rem;
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  .partners__description {
+    margin-top: 24px;
+  }
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .partners__content {
+    display: none;
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  .partners__content {
+    background-color: #fff;
+    height: 375px;
+    width: 100%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .wrapper--partners {
   padding: 0;
 }
 .partners-tabs {
-  margin-top: 49px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1443,6 +1685,12 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-top: 27px;
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  .partners-tabs {
+    margin-top: 49px;
   }
 }
 .partners-tabs__item:hover,
@@ -1493,9 +1741,10 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
 @media only screen and (min-width : 320px) and (max-width : 766px) {
   .partners-tabs__text {
     font-size: 2.2rem;
+    line-height: 2.6rem;
     font-family: 'pf_din_text_cond_promedium';
     text-transform: uppercase;
-    padding: 7.8125% 2.1875%;
+    padding: 4.8125% 2.1875%;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     display: -webkit-box;
@@ -1536,6 +1785,11 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
 .partners-list {
   display: none;
   height: 100%;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .partners-list {
+    border-bottom: 1px solid #000;
+  }
 }
 @media only screen and  (min-width: 1200px) {
   .partners-list {
@@ -1671,36 +1925,72 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
 ==============================*/
 .footer {
   width: 100%;
-  height: 151px;
   background-color: #000;
   color: #fff;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .footer {
+    padding-top: 11px;
+    padding-bottom: 25px;
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  .footer {
+    height: 151px;
+  }
 }
 .footer__inner {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 151px;
 }
-.footer__logo {
-  display: block;
-  background-image: url(../img/sprite.png);
-  background-position: -368px -241px;
-  width: 145px;
-  height: 63px;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .footer__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
+  }
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media only screen and  (min-width: 1200px) {
+  .footer__inner {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
+    height: 151px;
+  }
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .footer__logo {
+    display: none;
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  .footer__logo {
+    display: block;
+    background-image: url(../img/sprite.png);
+    background-position: -368px -241px;
+    width: 145px;
+    height: 63px;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+  }
+}
+@media only screen and  (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), only screen and  (min-width: 1200px) and (min-resolution: 192dpi) {
   .footer__logo {
     background-image: url(../img/sprite-retina.png);
     background-size: 678px 334px;
@@ -1719,13 +2009,50 @@ The `.retina-sprites` mixin generates a CSS rule and media query for retina grou
 }
 .footer__link {
   color: inherit;
-  font-size: 1.6rem;
-  line-height: 22px;
   text-decoration: underline;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .footer__link {
+    text-align: center;
+    line-height: 2.8rem;
+    font-size: 1.5rem;
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  .footer__link {
+    font-size: 1.6rem;
+    line-height: 22px;
+  }
 }
 .footer__link:hover,
 .footer__link:focus {
   text-decoration: none;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .footer__contacts {
+    font-size: 1.6rem;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 31px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .footer__tel {
+    margin-top: 26px;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .footer__number {
+    text-align: center;
+    font-size: 2.1rem;
+  }
 }
 .footer__callto {
   color: inherit;

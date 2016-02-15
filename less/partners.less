@@ -3,23 +3,41 @@
 ================================*/
 .partners {
 	background-color: @yellow;
-	padding-top: 46px;
+	overflow: hidden;
+	@media @mobile {
+		padding-top: 37px;
+		padding-bottom: 30px;
+	}
+	@media @desktop {
+		padding-top: 46px;
+	}
 	&__title {
 		text-align: center;
 	}
 	&__description {
 		font-size: 2.2rem;
-		margin-top: 24px;
 		text-align: center;
 		font-family: @ff-li;
+		@media @mobile {
+			margin-top: 16px;
+			line-height: 2.4rem;
+		}
+		@media @desktop {
+			margin-top: 24px;
+		}
 	}
 	&__content {
-		background-color: #fff;
-		height: 375px;
-		width: 100%;
-		max-width: @wrapper;
-		margin-left: auto;	
-		margin-right: auto;
+		@media @mobile {
+			display: none;
+		}
+		@media @desktop {
+			background-color: #fff;
+			height: 375px;
+			width: 100%;
+			max-width: @wrapper;
+			margin-left: auto;	
+			margin-right: auto;
+		}
 	}
 }
 .wrapper {
@@ -28,11 +46,14 @@
 	}
 }
 .partners-tabs {
-	margin-top: 49px;
 	display: flex;
 	justify-content: space-between;
 	@media @mobile {
 		flex-direction: column;
+		margin-top: 27px;
+	}
+	@media @desktop {
+		margin-top: 49px;
 	}
 	&__item {
 		&:hover, &:focus {
@@ -78,9 +99,10 @@
 	&__text {
 		@media @mobile {
 			font-size: 2.2rem;
+			line-height: 2.6rem;
 			font-family: @ff-m;
 			text-transform: uppercase;
-			padding: 7.8125% 2.1875%;
+			padding: 4.8125% 2.1875%;
 			border-top: 1px solid @brand;
 			border-bottom: 1px solid @brand;
 			display: flex;
@@ -101,6 +123,9 @@
 .partners-list {
 	display: none;
 	height: 100%;
+	@media @mobile {
+		border-bottom: 1px solid @brand;
+	}
 	@media @desktop {
 		padding: 80px 0;
 	}

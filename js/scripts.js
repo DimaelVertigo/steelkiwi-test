@@ -8,6 +8,18 @@ $(document).ready(function(){
 		$('.header-nav__list').toggleClass('active');
 	});
 	
+	/*===================================
+	=            GRID SLIDER            =
+	===================================*/
+	$(function() {
+	
+		$( '#ri-grid' ).gridrotator( {
+			rows : 1,
+			columns : 8,
+			animType: 'rotateBottom'
+		} );
+	});
+	
 	
 
 	/*=======================================

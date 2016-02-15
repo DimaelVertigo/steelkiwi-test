@@ -3,19 +3,36 @@
 ==============================*/
 .footer {
 	width: 100%;
-	height: 151px;
 	background-color: @brand;
 	color: #fff;
-	&__inner {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+	@media @mobile {
+		padding-top: 11px;
+		padding-bottom: 25px;
+	}
+	@media @desktop {
 		height: 151px;
 	}
+	&__inner {
+		display: flex;
+		@media @mobile {
+			flex-direction: column;
+			align-items: center;
+		}
+		@media @desktop {
+			justify-content: space-between;
+			align-items: center;
+			height: 151px;
+		}
+	}
 	&__logo {
-		display: block;
-		.retina-sprite(@footer-logo-group);
-		flex-shrink: 0;
+		@media @mobile {
+			display: none;
+		}
+		@media @desktop {
+			display: block;
+			.retina-sprite(@footer-logo-group);
+			flex-shrink: 0;
+		}
 	}
 	&__nav {
 		display: flex;
@@ -23,18 +40,39 @@
 	}
 	&__link {
 		color: inherit;
-		font-size: 1.6rem;
-		line-height: 22px;
 		text-decoration: underline;
+		@media @mobile {
+			text-align: center;
+			line-height: 2.8rem;
+			font-size: 1.5rem;
+		}
+		@media @desktop {
+			font-size: 1.6rem;
+			line-height: 22px;
+		}
 		&:hover, &:focus {
 		  text-decoration: none;
 		}
 	}
 	&__contacts {
+		@media @mobile {
+			font-size: 1.6rem;
+			order: 2;
+			margin-top: 31px;
+			text-align: center;
+		}
 	}
 	&__tel {
+		@media @mobile {
+			margin-top: 26px;
+			order: 1;
+		}
 	}
 	&__number {
+		@media @mobile {
+			text-align: center;
+			font-size: 2.1rem;
+		}
 	}
 	&__callto {
 		color: inherit;
