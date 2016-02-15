@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
+				"w",
+				"waypoints.min.js"
+			],
+			[
 				"spr",
-				"sprite.less"
+				"sprt	sprite"
+			],
+			[
+				"pa",
+				"partners.less"
 			],
 			[
 				"ip",
@@ -256,10 +264,6 @@
 				"animn	animation-name: ${1:none};"
 			],
 			[
-				"w",
-				"we have a winner.mp3"
-			],
-			[
 				"me",
 				"media/"
 			],
@@ -306,10 +310,6 @@
 			[
 				"setT",
 				"setTimeout(${0:func}, delay)	Window"
-			],
-			[
-				"pa",
-				"page-portfolio.php"
 			],
 			[
 				"po",
@@ -375,15 +375,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2031,
+				"buffer_size": 9758,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "less/header.less",
+			"file": "js/scripts.js",
 			"settings":
 			{
-				"buffer_size": 1094,
+				"buffer_size": 1308,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/features.less",
+			"settings":
+			{
+				"buffer_size": 6033,
 				"line_ending": "Unix"
 			}
 		}
@@ -404,16 +412,48 @@
 				"Run eCSStractor (with BEM Nesting)"
 			],
 			[
-				"git push",
-				"Git: Push"
-			],
-			[
 				"q",
 				"Git: Quick Commit"
 			],
 			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"expa",
+				"Format CSS: Expanded"
+			],
+			[
 				"git a",
 				"Git: Add All"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
 			],
 			[
 				"stat",
@@ -436,10 +476,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"git c",
-				"Git: Commit"
-			],
-			[
 				"git pus",
 				"Git: Push"
 			],
@@ -452,19 +488,7 @@
 				"Git: Add All"
 			],
 			[
-				"rei",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"qu",
-				"Git: Quick Commit"
-			],
-			[
 				"git ad",
-				"Git: Add All"
-			],
-			[
-				"git",
 				"Git: Add All"
 			],
 			[
@@ -505,10 +529,6 @@
 			],
 			[
 				"git s",
-				"Git: Status"
-			],
-			[
-				"git status",
 				"Git: Status"
 			],
 			[
@@ -565,10 +585,6 @@
 			],
 			[
 				"exp",
-				"Format CSS: Expanded"
-			],
-			[
-				"expa",
 				"Format CSS: Expanded"
 			],
 			[
@@ -685,14 +701,21 @@
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/partners.less",
+		"/Users/Frontend/Downloads/owl.carousel.2.0.0-beta.2 4.4/assets/owl.carousel.css",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/custom.less",
-		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/css/style.css",
-		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/style.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/js/scripts.js",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/variables.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/quality.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/features.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/footer.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/main-slider.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/style.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/header.less",
+		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/css/style.css",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/less/fonts.less",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/fonts/stylesheet.css",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/fonts/specimen_files/specimen_stylesheet.css",
-		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/js/scripts.js",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/.gitignore",
 		"/Applications/MAMP/htdocs/Projects/Defc/gulpfile.js",
 		"/Applications/MAMP/htdocs/Projects/steelkiwi-test/package.json",
@@ -805,18 +828,11 @@
 		"/Applications/MAMP/htdocs/Projects/Money time/less/variables.less",
 		"/Applications/MAMP/htdocs/Projects/Actual markup template/less/variables.less",
 		"/Users/Frontend/Documents/passwords.csv",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/shop-category.less",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/header.less",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/footer.less",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/custom.less",
-		"/Users/Frontend/Library/Application Support/Sublime Text 3/Packages/User/media-desktop.sublime-snippet",
-		"/Applications/MAMP/htdocs/Projects/Money time/shop-main.html",
-		"/Users/Frontend/Downloads/SelectInspiration/index.html",
-		"/Applications/MAMP/htdocs/Projects/Money time/less/cs-select.less"
+		"/Applications/MAMP/htdocs/Projects/Money time/less/shop-category.less"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -845,6 +861,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"div",
+			"$('.partners-list')",
+			"partners__logos",
+			"<ul class=\"partners-list\">",
+			"partners-list",
+			"div",
+			"partners__item",
+			"div",
+			"quality__icon",
+			"h2",
+			"title",
+			"features-list__img",
+			"features-list__btn",
+			"div",
+			".addition-info {\n	&__text {\n	}\n	&__link {\n	}\n}\n",
+			".main-slider {\n}\n.wrapper {\n}\n.offer-form {\n	&__title {\n	}\n	&__description {\n	}\n}\n.offer {\n	&__input {\n	}\n	&__submit {\n	}\n}\n.btn {\n}\n",
 			"site-",
 			"defc",
 			"cons",
@@ -956,23 +988,7 @@
 			"$('.scr-features-line1__path')",
 			"line",
 			"$('.scr-features-line1__path')",
-			"scr-top-line1__path",
-			"lineDraw",
-			"1",
-			"bias",
-			"bx",
-			"by",
-			"ax",
-			"ay",
-			"margin-top: 100px;",
-			" - i1",
-			"offset",
-			"bx",
-			"by",
-			"ax",
-			"ay",
-			"offset",
-			"scr-top-line1"
+			"scr-top-line1__path"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1032,7 +1048,7 @@
 						"translation.y": 1379.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1041,21 +1057,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2031,
+						"buffer_size": 9758,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1838,
-								1838
+								4444,
+								4444
 							]
 						],
 						"settings":
 						{
 							"bs_sintax": "html",
 							"buffer_scroll_name": "98607a4d",
+							"history_list_is_closing": true,
 							"incomplete_sync": null,
 							"is_xml": false,
 							"remote_loading": false,
@@ -1065,47 +1082,83 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 324.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 2,
-					"file": "less/header.less",
+					"file": "js/scripts.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1094,
+						"buffer_size": 1308,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								691,
-								691
+								889,
+								889
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "5c7b8ba1",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "less/features.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5873,
+								5841
 							]
 						],
 						"settings":
 						{
 							"bs_sintax": "less",
-							"buffer_scroll_name": "10097656",
+							"buffer_scroll_name": "c2d14408",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"spell_check": false,
 							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 317.0,
+						"translation.y": 4695.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1186,6 +1239,62 @@
 		"selected_items":
 		[
 			[
+				"fea",
+				"less/features.less"
+			],
+			[
+				"sc",
+				"js/scripts.js"
+			],
+			[
+				"cu",
+				"less/custom.less"
+			],
+			[
+				"va",
+				"less/variables.less"
+			],
+			[
+				"q",
+				"less/quality.less"
+			],
+			[
+				"foo",
+				"less/footer.less"
+			],
+			[
+				"pa",
+				"less/partners.less"
+			],
+			[
+				"v",
+				"less/variables.less"
+			],
+			[
+				"main",
+				"less/main-slider.less"
+			],
+			[
+				"sty",
+				"less/style.less"
+			],
+			[
+				"cus",
+				"less/custom.less"
+			],
+			[
+				"he",
+				"less/header.less"
+			],
+			[
+				"ma",
+				"less/main-slider.less"
+			],
+			[
+				"s",
+				"less/style.less"
+			],
+			[
 				"css",
 				"css/style.css"
 			],
@@ -1194,32 +1303,12 @@
 				"less/header.less"
 			],
 			[
-				"sty",
-				"less/style.less"
-			],
-			[
 				"fo",
 				"less/fonts.less"
 			],
 			[
-				"va",
-				"less/variables.less"
-			],
-			[
-				"cu",
-				"less/custom.less"
-			],
-			[
-				"s",
-				"js/scripts.js"
-			],
-			[
 				"in",
 				"index.html"
-			],
-			[
-				"pa",
-				"package.json"
 			],
 			[
 				"gu",
@@ -1238,20 +1327,8 @@
 				"less/scr-constructions.less"
 			],
 			[
-				"cus",
-				"less/custom.less"
-			],
-			[
 				"ab",
 				"less/scr-aboutus.less"
-			],
-			[
-				"foo",
-				"less/footer.less"
-			],
-			[
-				"fea",
-				"less/scr-features.less"
 			],
 			[
 				"scr",
@@ -1274,10 +1351,6 @@
 				"less/owl.carousel.less"
 			],
 			[
-				"sc",
-				"js/scripts.js"
-			],
-			[
 				"gal",
 				"less/scr-gallery.less"
 			],
@@ -1288,10 +1361,6 @@
 			[
 				"ae",
 				"less/scr-aerodynamics.less"
-			],
-			[
-				"ma",
-				"less/scr-map.less"
 			],
 			[
 				"owl",
@@ -1348,10 +1417,6 @@
 			[
 				"fe",
 				"less/footer.less"
-			],
-			[
-				"he",
-				"less/header.less"
 			],
 			[
 				"gulp",
@@ -1684,18 +1749,6 @@
 			[
 				"fu",
 				"functions.php"
-			],
-			[
-				"ba",
-				"js/basic.js"
-			],
-			[
-				"page",
-				"page-b.php"
-			],
-			[
-				"fun",
-				"wp-includes/functions.php"
 			]
 		],
 		"width": 0.0

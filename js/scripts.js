@@ -1,11 +1,28 @@
 $(document).ready(function(){
 
+	/*==============================
+	=            BURGER            =
+	==============================*/
+	$('.burger').on('click', function() {
+		$(this).toggleClass('active');
+		$('.header-nav__list').toggleClass('active');
+	});
+	
+	
+
 	/*=======================================
 	=            FEATURES SLIDER            =
 	=======================================*/
-	$(".owl-carousel").owlCarousel();
+	$(".fs").owlCarousel({
+		loop: true,
+		autoplay: false,
+		items: 1,
+		nav: true,
+		autoplayHoverPause: true,
+		navText: []
+	});
 
-	
+
 	/*==========================================
 	=            Tabs and accordion            =
 	==========================================*/

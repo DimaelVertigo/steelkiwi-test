@@ -4,66 +4,274 @@
 	<meta charset="UTF-8">
 	<title>Steelkiwi</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+	<link rel="stylesheet" href="css/style.css"></head>
 <body>
 
-<header class="header">
-	<div class="wrapper">
-		<div class="header-top">
-			<a href="index.html" class="header-logo"></a>
-			<ul class="header-contacts">
-				<li class="header-contacts__item">Производство:</li>
-				<li class="header-contacts__item">г. Санкт-Петербург, Колпино</li>
-				<li class="header-contacts__item">Ижорский завод, пр. Ленина, д.1</li>
-			</ul>
-			<div class="header-tel">
-				<div class="header-tel__number">8 800 000 00 00</div>
-				<a href="#" class="header-tel__button btn">Обратный звонок</a>
-			</div>
-		</div>
-	</div>
-	<div class="header-nav">
+	<header class="header">
 		<div class="wrapper">
-			<nav class="header-nav__list">
-				<a href="#" class="header-nav__item">О компании</a>
-				<a href="#" class="header-nav__item">оборудование</a>
-				<a href="#" class="header-nav__item">виды работ</a>
-				<a href="#" class="header-nav__item">Изделия</a>
-				<a href="#" class="header-nav__item">рекомендации</a>
-				<a href="#" class="header-nav__item">вакансии</a>
-				<a href="#" class="header-nav__item">контакты</a>
-			</nav>
-		</div>
-	</div>
-</header>
-
-<div class="main-slider">
-	<div class="wrapper">
-		<div class="offer-form">
-			<div class="offer-form__inner">
-				<h2 class="offer-form__title">Изготовление деталей из металла по вашим чертежам</h2>
-				<p class="offer-form__description">
-					В поиске компании по металлообработке? Отправьте ваш запрос для оценки стоимости
-				</p>
-				<form class="offer">
-					<input type="text" placeholder="Ваше имя" class="offer__input">
-					<input type="tel" placeholder="Телефон" class="offer__input">
-					<input type="email" placeholder="E-mail" class="offer__input">
-					<button class="offer__submit btn">оправить</button>
-				</form>
+			<div class="header-top">
+				<a href="index.html" class="header-logo"></a>
+				<ul class="header-contacts">
+					<li class="header-contacts__item">Производство:</li>
+					<li class="header-contacts__item">г. Санкт-Петербург, Колпино</li>
+					<li class="header-contacts__item">Ижорский завод, пр. Ленина, д.1</li>
+				</ul>
+				<div class="header-tel">
+					<div class="header-tel__number">8 800 000 00 00</div>
+					<a href="#" class="header-tel__button btn">Обратный звонок</a>
+				</div>
 			</div>
 		</div>
-		<div class="addition-info">
-			<p class="addition-info__text">* Если требуется отправить чертеж, перейдите на </p><a href="#" class="addition-info__link">форму заказа</a>
+		<div class="header-nav">
+			<div class="wrapper">
+				<nav class="header-nav__list">
+					<a href="#" class="header-nav__item">О компании</a>
+					<a href="#" class="header-nav__item">оборудование</a>
+					<a href="#" class="header-nav__item">виды работ</a>
+					<a href="#" class="header-nav__item">Изделия</a>
+					<a href="#" class="header-nav__item">рекомендации</a>
+					<a href="#" class="header-nav__item">вакансии</a>
+					<a href="#" class="header-nav__item">контакты</a>
+				</nav>
+				<div class="burger">
+					<div class="burger__line"></div>
+				</div>
+			</div>
 		</div>
-	</div>
-</div>
+		
+	</header>
 
+	<section class="main-slider">
+		<div class="wrapper wrapper--slider">
+			<div class="offer-form">
+				<div class="offer-form__inner">
+					<div class="offer-form__title title title">Изготовление деталей из металла по вашим чертежам</div>
+					<p class="offer-form__description">
+						В поиске компании по металлообработке? Отправьте ваш запрос для оценки стоимости
+					</p>
+					<form class="offer">
+						<input type="text" placeholder="Ваше имя" class="offer__input">
+						<input type="number" placeholder="Телефон" class="offer__input">
+						<input type="email" placeholder="E-mail" class="offer__input">
+						<div class="addition-info-mobile">
+							<p class="addition-info-mobile__text">* Если требуется отправить чертеж,<br> перейдите на <a href="#" class="addition-info-mobile__link">форму заказа</a></p> 
+							
+						</div>
+						<button class="offer__submit btn">оправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="addition-info">
+				<p class="addition-info__text">* Если требуется отправить чертеж, перейдите на форму заказа</p><a href="#" class="addition-info__link"></a>
+			</div>
+		</div>
+	</section>
 
+	<section class="features">
+		<div class="wrapper wrapper--features">
+			<ul class="features-list">
+				<li class="features-list__item">
+					<div class="features-list__img features-list__img--1"></div>
+					<div class="features-list__info">
+						<h3 class="features-list__title title">Фрезерные работы</h3>
+						<p class="features-list__text">
+							Медиамикс продуцирует охват аудитории. Исходя из структуры пирамиды Маслоу, рекламный клаттер раскручивает инструмент маркетинга.
+						</p>
+						<a href="#" class="features-list__btn btn">узнать больше</a>
+					</div>
+				</li>
+				<li class="features-list__item">
+					<div class="features-list__img features-list__img--2"></div>
+					<div class="features-list__info">
+						<h3 class="features-list__title title">Токарные работы</h3>
+						<p class="features-list__text">
+							Медиамикс продуцирует охват аудитории. Исходя из структуры пирамиды Маслоу, рекламный клаттер раскручивает инструмент маркетинга.
+						</p>
+						<a href="#" class="features-list__btn btn">узнать больше</a>
+					</div>
+				</li>
+				<li class="features-list__item">
+					<div class="features-list__img features-list__img--3"></div>
+					<div class="features-list__info">
+						<h3 class="features-list__title title">
+							Изготовление деталей 
+						по чертежам заказчика
+						</h3>
+						<p class="features-list__text">
+							Медиамикс продуцирует охват аудитории. Исходя из структуры пирамиды Маслоу, рекламный клаттер раскручивает инструмент маркетинга.
+						</p>
+						<a href="#" class="features-list__btn btn">узнать больше</a>
+					</div>
+				</li>
+				<li class="features-list__item">
+					<div class="features-list__img features-list__img--4"></div>
+					<div class="features-list__info">
+						<h3 class="features-list__title title">
+							Сварочные
+							<br>и сборочные работы</h3>
+						<p class="features-list__text">
+							Медиамикс продуцирует охват аудитории. Исходя из структуры пирамиды Маслоу, рекламный клаттер раскручивает инструмент маркетинга.
+						</p>
+						<a href="#" class="features-list__btn btn">узнать больше</a>
+					</div>
+				</li>
+			</ul>
+			<div class="features-sliders">
+				<h2 class="features-sliders__title title">Наше оборудование</h2>
+				<ul class="fs">
+					<li class="fs__item">
+						<img src="img/photos/features-slider-item1.jpg" height="262" width="262" alt=""></li>
+					<li class="fs__item">
+						<img src="img/photos/features-slider-item2.jpg" alt=""></li>
+					<li class="fs__item">
+						<img src="img/photos/features-slider-item1.jpg" alt=""></li>
+					<li class="fs__item">
+						<img src="img/photos/features-slider-item2.jpg" alt=""></li>
+				</ul>
+				<h2 class="features-sliders__title title">Наша продукция</h2>
+				<ul class="fs">
+					<li class="fs__item">
+						<img src="img/photos/features-slider-item2.jpg" height="262" width="262" alt=""></li>
+					<li class="fs__item">
+						<img src="img/photos/features-slider-item1.jpg" alt=""></li>
+					<li class="fs__item">
+						<img src="img/photos/features-slider-item2.jpg" alt=""></li>
+					<li class="fs__item">
+						<img src="img/photos/features-slider-item1.jpg" alt=""></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 
+	<section class="quality">
+		<div class="wrapper">
+			<h2 class="quality__title title">Гарантируем качество изделий</h2>
+			<div class="quality__content">
+				<div class="certificate">
+					<img src="img/photos/certificate-thumb.jpg" alt="certificate"></div>
+				<div class="quality-list">
+					<div class="quality__item">
+						<div class="quality__icon quality__icon--1">
+							ISO
+							<br>9001</div>
+						<p class="quality__text">Производство  сертифицировано ГОСТ ISO 9001</p>
+					</div>
+					<div class="quality__item">
+						<div class="quality__icon quality__icon--2"> <i></i>
+						</div>
+						<p class="quality__text">Заводское качество и низкие цены</p>
+					</div>
+					<div class="quality__item">
+						<div class="quality__icon quality__icon--3"> <i></i>
+						</div>
+						<p class="quality__text">Обновляемый и модернизируемый парк станков</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="partners">
+		<div class="wrapper wrapper--partners">
+			<h2 class="partners__title title">Наши заказчики</h2>
+			<div class="partners__description">Предприятия крупного, среднего и точного машиностроения</div>
+			<div class="partners-tabs">
+				<div class="partners-tabs__item">
+					<div class="partners-tabs__text">
+						Машиностроительные
+									предприятия
+					</div>
+					<div class="partners-list">
+						<ul class="partners-list__logos">
+							<li class="partners-list__item partners-list__item--1"></li>
+							<li class="partners-list__item partners-list__item--2"></li>
+							<li class="partners-list__item partners-list__item--3"></li>
+							<li class="partners-list__item partners-list__item--4"></li>
+							<li class="partners-list__item partners-list__item--5"></li>
+							<li class="partners-list__item partners-list__item--6"></li>
+						</ul>
+					</div>
+				</div>
+				<div class="partners-tabs__item">
+					<div class="partners-tabs__text">
+						Производители
+									пишевой продукции
+					</div>
+					<div class="partners-list">
+						<ul class="partners-list__logos">
+							<li class="partners-list__item partners-list__item--1"></li>
+							<li class="partners-list__item partners-list__item--2"></li>
+							<li class="partners-list__item partners-list__item--3"></li>
+							<li class="partners-list__item partners-list__item--4"></li>
+							<li class="partners-list__item partners-list__item--5"></li>
+							<li class="partners-list__item partners-list__item--6"></li>
+						</ul>
+					</div>
+				</div>
+				<div class="partners-tabs__item">
+					<div class="partners-tabs__text">
+						предприятия специального
+									машиностроения
+					</div>
+					<div class="partners-list">
+						<ul class="partners-list__logos">
+							<li class="partners-list__item partners-list__item--1"></li>
+							<li class="partners-list__item partners-list__item--2"></li>
+							<li class="partners-list__item partners-list__item--3"></li>
+							<li class="partners-list__item partners-list__item--4"></li>
+							<li class="partners-list__item partners-list__item--5"></li>
+							<li class="partners-list__item partners-list__item--6"></li>
+						</ul>
+					</div>
+				</div>
+				<div class="partners-tabs__item">
+					<div class="partners-tabs__text">
+						Оборонные
+									предприятия
+					</div>
+					<div class="partners-list">
+						<ul class="partners-list__logos">
+							<li class="partners-list__item partners-list__item--1"></li>
+							<li class="partners-list__item partners-list__item--2"></li>
+							<li class="partners-list__item partners-list__item--3"></li>
+							<li class="partners-list__item partners-list__item--4"></li>
+							<li class="partners-list__item partners-list__item--5"></li>
+							<li class="partners-list__item partners-list__item--6"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="partners__content"></section>
+
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer__inner">
+				<a href="index.html" class="footer__logo"></a>
+				<nav class="footer__nav">
+					<a href="#" class="footer__link">Механообработка деталей</a>
+					<a href="#" class="footer__link">Токарные работы</a>
+				</nav>
+				<nav class="footer__nav">
+					<a href="#" class="footer__link">Фрезеровка деталей</a>
+					<a href="#" class="footer__link">Фрезерный работы</a>
+				</nav>
+				<div class="footer__contacts">
+					г. Санкт-Петербург, Колпино
+					<br>Ижорский завод, пр. Ленина, д.1</div>
+				<div class="footer__tel">
+					<div class="footer__number">8 800 000 00 00</div>
+					<a href="#" class="footer__callto">написать директору</a>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>
